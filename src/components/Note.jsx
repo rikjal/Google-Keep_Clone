@@ -22,7 +22,7 @@ function Note( props )
     const classes = useStyles()
     return (
 
-        <div className="col-sm-6 col-lg-3 col-12 col-md-4">
+        <div className="col-sm-6 col-lg-3 col-12 col-md-4 mb-4">
             <Card className={classes.root}>
                 <h1>{props.title}</h1>
                 <hr />
