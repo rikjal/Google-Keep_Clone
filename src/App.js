@@ -9,7 +9,6 @@ import Note from './components/Note'
 
 function App()
 {
-  var i = 5
   const [addItem, setAddItem] = useState( [] )
   const addNote = ( note ) =>
   {
@@ -39,7 +38,7 @@ function App()
               <div className="container-fluid">
 
                 <CreateNote passNote={addNote} />
-                <div className="row">
+                <div className="row mr-0 ml-auto">
                   {addItem.map( ( val, index ) =>
                   {
                     return (
