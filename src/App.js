@@ -9,6 +9,7 @@ import Note from './components/Note'
 
 function App()
 {
+  var i = 5
   const [addItem, setAddItem] = useState( [] )
   const addNote = ( note ) =>
   {
