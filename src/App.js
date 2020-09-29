@@ -36,7 +36,6 @@ function App()
           <Switch>
             <Route exact path="/">
               <div className="container-fluid">
-
                 <CreateNote passNote={addNote} />
                 <div className="row mr-0 ml-auto">
                   {addItem.map( ( val, index ) =>
